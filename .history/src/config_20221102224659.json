@@ -1,0 +1,135 @@
+{
+  "currencyList": [
+    { "value": "AUS", "label": "Australia (AUS $)" },
+    { "value": "CAD", "label": "Canada (CAD $)" },
+    { "value": "USD", "label": "United States (US $)" },
+    { "value": "EUR", "label": "Germany (EUR €)" },
+    { "value": "HKD", "label": "Hong Kong (HKD $)" }
+  ],
+  "languageList": [
+    { "value": "english", "label": "English" },
+    { "value": "german", "label": "Deutsch" },
+    { "value": "mandarin", "label": "普通话" }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/MatterDesign/",
+    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
+    "twitter": "https://twitter.com/hellomatter",
+    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+  },
+  "paymentOptions": {
+    "visa": true,
+    "mastercard": true,
+    "amex": true
+  },
+  "footerLinks": [
+    {
+      "subTitle": "Info",
+      "links": [
+        {
+          "text": "About Us",
+          "link": "/about"
+        },
+        {
+          "text": "Journal",
+          "link": "/blog"
+        },
+        {
+          "text": "Privacy Policy",
+          "link": "/support#policy"
+        }
+      ]
+    },
+    {
+      "subTitle": "Support",
+      "links": [
+        {
+          "text": "FAQ",
+          "link": "/faq"
+        },
+        {
+          "text": "Contact Us",
+          "link": "/support#contact"
+        },
+        {
+          "text": "Shipping & Returns",
+          "link": "/support#returns"
+        },
+        {
+          "text": "How to use this theme",
+          "link": "/how-to-use"
+        }
+      ]
+    }
+  ],
+  "headerLinks": [
+    {
+      "menuLabel": "Shop",
+      "menuLink": "/shop",
+      "category": [
+        {
+          "categoryLabel": "Infant",
+          "submenu": [
+            {
+              "menuLabel": "All clothing",
+              "menuLink": "/shop"
+            },
+            {
+              "menuLabel": "Jumpers",
+              "menuLink": "/Jumpers"
+            },
+            {
+              "menuLabel": "Tops",
+              "menuLink": "/Tops"
+            }
+          ]
+        },
+  
+        {
+          "categoryLabel": "accessories",
+          "submenu": [
+            {
+              "menuLabel": "Hat",
+              "menuLink": "/shop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuLabel": "journal",
+      "menuLink": "/blog",
+      "category": null
+    },
+    {
+      "menuLabel": "About",
+      "menuLink": "/about",
+      "category": null
+    }
+  ],
+  "filters": [
+    {
+      "category": "colour",
+      "items": [
+        { "name": "Cream", "value": false },
+        { "name": "Brown", "value": false },
+        { "name": "Orange", "value": false },
+        { "name": "Green", "value": false },
+        { "name": "Red", "value": false },
+        { "name": "Purple", "value": false }
+      ]
+    },
+
+    {
+      "category": "size",
+      "items": [
+        { "name": "0-3 months", "value": false },
+        { "name": "3-6 months", "value": false },
+        { "name": "3-9 months", "value": false },
+        { "name": "9-12 months", "value": false },
+        { "name": "12-18 months", "value": false }
+      ]
+    }
+  
+  ]
+}
