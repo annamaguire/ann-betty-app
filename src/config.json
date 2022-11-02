@@ -75,12 +75,12 @@
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "Jumper",
-              "menuLink": "/shop"
+              "menuLabel": "Jumpers",
+              "menuLink": "/Jumpers"
             },
             {
-              "menuLabel": "Top",
-              "menuLink": "/shop"
+              "menuLabel": "Tops",
+              "menuLink": "/Tops"
             }
           ]
         },
