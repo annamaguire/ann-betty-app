@@ -5,6 +5,6 @@ describe('sample render test', () => {
 
   it('displays the title text', () => {
     cy.get('h2')
-    .contains('New Collection');
+    .contains('Essentials for a cold winter');
   })
 }) 

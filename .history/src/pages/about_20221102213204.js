@@ -15,7 +15,7 @@ const AboutPage = (props) => {
     if (elementReference) {
       window.scrollTo({
         behavior: 'smooth',
-        top: elementReference.current.offsetTop - 280,
+        top: elementReference.current.offsetTop - 180,
       });
     }
   };
@@ -26,8 +26,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/elephants.jpg'}
-          title={` Ndaragwa Kenya `}
+          image={'/about.png'}
+          title={`Ndaragwa Kenya `}
         />
 
         <div className={styles.navContainer}>
@@ -63,7 +63,7 @@ materials.
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'hand knit jumper'} src={'/handmadeWithLove.jpg'}></img>
+          <img alt={'shirt brand'} src={'/about1.png'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -83,9 +83,9 @@ materials.
                 refining its every last aspect.
               </p>
               <ol>
-                <li>Sustainable organic clothing</li>
-                <li>Collaborating with local Women</li>
-                <li>Creating growth and employment in rural communities</li>
+                <li>Be an ecowear</li>
+                <li>Sophisticated and not mass-produced</li>
+                <li>Only natural materials</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>
