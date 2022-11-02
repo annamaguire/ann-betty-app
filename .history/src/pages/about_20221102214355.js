@@ -83,9 +83,9 @@ materials.
                 refining its every last aspect.
               </p>
               <ol>
-                <li>Sustainable organic clothing</li>
-                <li>Collaborating with local Women</li>
-                <li>Creating growth and employment in rural communities</li>
+                <li>Be an ecowear</li>
+                <li>Sophisticated and not mass-produced</li>
+                <li>Only natural materials</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>

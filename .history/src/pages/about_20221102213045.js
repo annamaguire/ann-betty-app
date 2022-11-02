@@ -26,8 +26,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/elephants.jpg'}
-          title={` Ndaragwa Kenya `}
+          image={'/about.png'}
+          title={`Ann & Betty \n Ndaragwa Kenya `}
         />
 
         <div className={styles.navContainer}>
@@ -54,7 +54,10 @@ const AboutPage = (props) => {
             <br />
             <br />
             <p>
-           
+           Our knitters create beautiful garments that are made with care and attention to detail.
+We source our organic cotton and hand-spun wool from Kenana Knitters who are based in Njoro in the
+Kenyan Rift Valley.
+<span></span>
  Our objective is to contribute to creating sustainable livelihoods in rural Kenya by
 tapping into the talent of our local women to make beautiful hand-knit garments using sustainable local
 materials.
@@ -63,7 +66,7 @@ materials.
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'hand knit jumper'} src={'/handmadeWithLove.jpg'}></img>
+          <img alt={'shirt brand'} src={'/about1.png'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -83,9 +86,9 @@ materials.
                 refining its every last aspect.
               </p>
               <ol>
-                <li>Sustainable organic clothing</li>
-                <li>Collaborating with local Women</li>
-                <li>Creating growth and employment in rural communities</li>
+                <li>Be an ecowear</li>
+                <li>Sophisticated and not mass-produced</li>
+                <li>Only natural materials</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>

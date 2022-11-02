@@ -83,7 +83,7 @@ materials.
                 refining its every last aspect.
               </p>
               <ol>
-                <li>Sustainable organic clothing</li>
+                <li>Sustainable organic clothing made with locally sourced raw materials</li>
                 <li>Collaborating with local Women</li>
                 <li>Creating growth and employment in rural communities</li>
               </ol>
