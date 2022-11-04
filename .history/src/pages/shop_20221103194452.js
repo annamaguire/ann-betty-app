@@ -16,7 +16,7 @@ import Config from '../config.json';
 import productJson from '../helpers/product.json';
 
 const ShopPage = (props) => {
-  const [showFilter, setShowFilter] = useState(false);
+  const [showFilter, setShowFilter] = useState(true);
   const filtered = productJson.filter((item) => item.tags.includes('jumpers'));
   const data = generateMockProductData(filtered.length, 'all');
   

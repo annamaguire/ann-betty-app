@@ -18,8 +18,6 @@ const ProductCard = (props) => {
     height = 580,
   } = props;
 
-  console.log(props.toString());
-
   const handleRouteToProduct = () => {
     navigate('/product/sample');
   };

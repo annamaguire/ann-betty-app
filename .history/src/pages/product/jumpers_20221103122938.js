@@ -13,21 +13,17 @@ import Split from '../../components/Split';
 import SwatchList from '../../components/SwatchList';
 import Layout from '../../components/Layout/Layout';
 
-import { filterItemById, generateMockProductData } from '../../helpers/mock';
+import { generateMockProductData } from '../../helpers/mock';
 import Icon from '../../components/Icons/Icon';
 import ProductCardGrid from '../../components/ProductCardGrid';
 import { navigate } from 'gatsby';
 
-
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
-const ProductPage = (props) => {
+const JumpersPage = (props) => {
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
-
-  const sampleProduct = generateMockProductData(1, 'sample')[0];
-
- // const productData = filterItemById(1,)[0];
+  const sampleProduct = generateMockProductData(1, 'jumpers')[0];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   const [activeSwatch, setActiveSwatch] = useState(
@@ -35,18 +31,16 @@ const ProductPage = (props) => {
   );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
   const suggestions = generateMockProductData(4, 'woman');
-  console.log(props);
 
   return (
-    
     <Layout>
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
             crumbs={[
               { link: '/', label: 'Home' },
-              { label: 'Men', link: '/shop' },
-              { label: 'Sweater', link: '/shop' },
+              { label: 'Jumpers', link: '/jumpers' },
+         
               { label: `${sampleProduct.name}` },
             ]}
           />
@@ -171,4 +165,4 @@ const ProductPage = (props) => {
   );
 };
 
-export default ProductPage;
+export default JumpersPage;

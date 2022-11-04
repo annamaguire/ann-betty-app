@@ -10,12 +10,19 @@
         ],
         "sizeOptions": ["6 - 9 months"],
         "wishlist": false,
-        "tags": ["sample", "jumpers", "all"],
+        "tags": ["sample"],
         "gallery": [
             {"image": "/products/GJ1.jpg", "alt": "pdp description 1"}
          
         ],
         "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
+    },
+    {
+        "name": "Giraffe Roll Neck Jumper",
+        "price": 75,
+        "alt": "Giraffe Jumper 1",
+        "image": "/products/GJ1.jpg",
+        "tags": ["jumpers","all"]
     },
     {
         "productCode": "GJ1",
@@ -53,14 +60,20 @@
         ],
         "sizeOptions": ["6 - 9 months"],
         "wishlist": false,
-        "tags": ["jumpers","all"],
+        "tags": ["sample"],
         "gallery": [
             {"image": "/products/GJ5.jpg", "alt": "pdp description 1"}
          
         ],
         "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
     },
-   
+    {
+        "name": "Giraffe Roll Neck Jumper",
+        "price": 75,
+        "alt": "Giraffe Jumper 3",
+        "image": "/products/GJ3.jpg",
+        "tags": ["jumpers","all"]
+    },
     {
         "productCode": "GJ3",
         "name": "Elephant Roll Neck Jumper",
@@ -72,12 +85,19 @@
         ],
         "sizeOptions": ["6 - 9 months"],
         "wishlist": false,
-        "tags": ["jumpers","all"],
+        "tags": ["sample"],
         "gallery": [
             {"image": "/products/GJ3.jpg", "alt": "pdp description 1"}
          
         ],
         "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
+    },
+    {
+        "name": "Giraffe Roll Neck Jumper",
+        "price": 75,
+        "alt": "Giraffe Jumper 4",
+        "image": "/products/GJ4.jpg",
+        "tags": ["jumpers","all"]
     },
     {
         "productCode": "EJ1",
@@ -90,14 +110,20 @@
         ],
         "sizeOptions": ["6 - 9 months"],
         "wishlist": false,
-        "tags": ["jumpers","all"],
+        "tags": ["sample"],
         "gallery": [
             {"image": "/products/GJ4.jpg", "alt": "pdp description 1"}
          
         ],
         "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
     },
-    
+    {
+        "name": "Giraffe Roll Neck Jumper",
+        "price": 75,
+        "alt": "Giraffe Jumper 6",
+        "image": "/products/GJ6.jpg",
+        "tags": ["jumpers","all"]
+    },  
     {
         "productCode": "GJ6",
         "name": "Giraffe Roll Neck Jumper",
@@ -109,14 +135,20 @@
         ],
         "sizeOptions": ["6 - 9 months"],
         "wishlist": false,
-        "tags": ["jumpers","all"],
+        "tags": ["sample"],
         "gallery": [
             {"image": "/products/GJ6.jpg", "alt": "pdp description 1"}
          
         ],
         "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
     },  
-     
+    {
+        "name": "Tank Top",
+        "price": 70,
+        "alt": "Organic hand knit tank top children",
+        "image": "/products/TT1.jpg",
+        "tags": ["tops","all"]
+    },    
     {
         "name": "Tank Top",
         "price": 70,
@@ -125,73 +157,19 @@
         "tags": ["tops","all"]
     },    
     {
-        "productCode": "TT2",
-        "name": "Tank Top",
-        "price": 75,
-        "alt": "100 % organic hand spun cotton",
-        "image": "/products/TT2.jpg",
-        "colorOptions": [
-            {"color": "#9b646c", "title": "Burgandy"}
-        ],
-        "sizeOptions": ["6 - 9 months"],
-        "wishlist": false,
-        "tags": ["tops","all"],
-        "gallery": [
-            {"image": "/products/TT2.jpg", "alt": "pdp description 1"}
-         
-        ],
-        "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
-    },
-    {
         "name": "Tank Top",
         "price": 70,
         "alt": "Organic hand knit tank top children",
         "image": "/products/TT3.jpg",
         "tags": ["tops","all"]
-    },  
-    {
-        "productCode": "TT3",
-        "name": "Tank Top",
-        "price": 75,
-        "alt": "100 % organic hand spun cotton",
-        "image": "/products/TT3.jpg",
-        "colorOptions": [
-            {"color": "#9b646c", "title": "Burgandy"}
-        ],
-        "sizeOptions": ["6 - 9 months"],
-        "wishlist": false,
-        "tags": ["tops","all"],
-        "gallery": [
-            {"image": "/products/TT3.jpg", "alt": "pdp description 1"}
-         
-        ],
-        "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
-    },  
+    },    
     {
         "name": "Tank Top",
         "price": 70,
         "alt": "Organic hand knit tank top children",
         "image": "/products/TT4.jpg",
         "tags": ["tops","all"]
-    },  
-    {
-        "productCode": "TT4",
-        "name": "Tank Top",
-        "price": 75,
-        "alt": "100 % organic hand spun cotton",
-        "image": "/products/TT4.jpg",
-        "colorOptions": [
-            {"color": "#9b646c", "title": "Burgandy"}
-        ],
-        "sizeOptions": ["6 - 9 months"],
-        "wishlist": false,
-        "tags": ["tops","all"],
-        "gallery": [
-            {"image": "/products/TT4.jpg", "alt": "pdp description 1"}
-         
-        ],
-        "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
-    },  
+    },    
   
     {
         "name": "Relaxed-fit graphic T-shirt",

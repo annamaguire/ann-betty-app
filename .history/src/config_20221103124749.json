@@ -109,16 +109,6 @@
   ],
   "filters": [
     {
-      "category": "item",
-      "items": [
-        { "name": "Jumper", "value": false },
-        { "name": "Top", "value": false },
-        { "name": "Tank Top", "value": false },
-        { "name": "Hat", "value": false } 
-      ]
-    },
-
-    {
       "category": "colour",
       "items": [
         { "name": "Cream", "value": false },

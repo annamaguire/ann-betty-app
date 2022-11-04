@@ -5,17 +5,15 @@ import CurrencyFormatter from '../CurrencyFormatter';
 import SizeList from '../SizeList';
 import SwatchList from '../SwatchList';
 
-
-import { filterItemById, generateMockProductData } from '../../helpers/mock';
+import { generateMockProductData } from '../../helpers/mock';
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
 import * as styles from './QuickView.module.css';
 
 const QuickView = (props) => {
-  console.log(props);
   const { close, buttonTitle = 'Add to Bag' } = props;
   const sampleProduct = generateMockProductData(1, 'sample')[0];
-
+  
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
   const [activeSwatch, setActiveSwatch] = useState(

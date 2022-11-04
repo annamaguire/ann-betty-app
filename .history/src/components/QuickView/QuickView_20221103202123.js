@@ -12,7 +12,6 @@ import AddItemNotificationContext from '../../context/AddItemNotificationProvide
 import * as styles from './QuickView.module.css';
 
 const QuickView = (props) => {
-  console.log(props);
   const { close, buttonTitle = 'Add to Bag' } = props;
   const sampleProduct = generateMockProductData(1, 'sample')[0];
 

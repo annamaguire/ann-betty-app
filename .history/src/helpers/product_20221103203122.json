@@ -173,25 +173,7 @@
         "alt": "Organic hand knit tank top children",
         "image": "/products/TT4.jpg",
         "tags": ["tops","all"]
-    },  
-    {
-        "productCode": "TT4",
-        "name": "Tank Top",
-        "price": 75,
-        "alt": "100 % organic hand spun cotton",
-        "image": "/products/TT4.jpg",
-        "colorOptions": [
-            {"color": "#9b646c", "title": "Burgandy"}
-        ],
-        "sizeOptions": ["6 - 9 months"],
-        "wishlist": false,
-        "tags": ["tops","all"],
-        "gallery": [
-            {"image": "/products/TT4.jpg", "alt": "pdp description 1"}
-         
-        ],
-        "description": "Handknit with organic hand spun cotton. Chest size 58 cms. Length 28 cms."
-    },  
+    },    
   
     {
         "name": "Relaxed-fit graphic T-shirt",

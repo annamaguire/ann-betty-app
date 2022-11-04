@@ -13,13 +13,10 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
 import Config from '../config.json';
-import productJson from '../helpers/product.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const filtered = productJson.filter((item) => item.tags.includes('jumpers'));
-  const data = generateMockProductData(filtered.length, 'all');
-  
+  const data = generateMockProductData(200, 'all');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -39,7 +36,8 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { label: 'All Items' },
+                { link: '/', label: 'Infant' },
+                { label: 'Sweaters' },
               ]}
             />
           </div>
@@ -53,7 +51,7 @@ const ShopPage = (props) => {
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>{filtered.length} Items</span>
+            <span className={styles.itemCount}>476 items</span>
             <div className={styles.controllerContainer}>
               <div
                 className={styles.iconContainer}
