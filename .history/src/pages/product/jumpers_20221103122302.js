@@ -13,58 +13,51 @@ import Split from '../../components/Split';
 import SwatchList from '../../components/SwatchList';
 import Layout from '../../components/Layout/Layout';
 
-import { filterItemById, generateMockProductData } from '../../helpers/mock';
+import { generateMockProductData } from '../../helpers/mock';
 import Icon from '../../components/Icons/Icon';
 import ProductCardGrid from '../../components/ProductCardGrid';
 import { navigate } from 'gatsby';
 
-
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
-const ProductPage = (props) => {
+const JumpersPage = (props) => {
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
-
-  const sampleProduct = generateMockProductData(1, 'sample')[0];
-
- // const productData = filterItemById(1,)[0];
+  const jumpersProduct = generateMockProductData(1, 'jumpers')[0];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   const [activeSwatch, setActiveSwatch] = useState(
-    sampleProduct.colorOptions[0]
+    jumpersProduct.colorOptions[0]
   );
-  const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
+  const [activeSize, setActiveSize] = useState(jumpersProduct.sizeOptions[0]);
   const suggestions = generateMockProductData(4, 'woman');
-  console.log(props);
 
   return (
-    
     <Layout>
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
             crumbs={[
               { link: '/', label: 'Home' },
-              { label: 'Men', link: '/shop' },
-              { label: 'Sweater', link: '/shop' },
-              { label: `${sampleProduct.name}` },
+              { label: 'Jumpers', link: '/jumpers' },
+              { label: `${jumpersProduct.name}` },
             ]}
           />
           <div className={styles.content}>
             <div className={styles.gallery}>
-              <Gallery images={sampleProduct.gallery} />
+              <Gallery images={jumpersProduct.gallery} />
             </div>
             <div className={styles.details}>
-              <h1>{sampleProduct.name}</h1>
+              <h1>{jumpersProduct.name}</h1>
              
 
               <div className={styles.priceContainer}>
-                <CurrencyFormatter appendZero amount={sampleProduct.price} />
+                <CurrencyFormatter appendZero amount={jumpersProduct.price} />
               </div>
 
               <div>
                 <SwatchList
-                  swatchList={sampleProduct.colorOptions}
+                  swatchList={jumpersProduct.colorOptions}
                   activeSwatch={activeSwatch}
                   setActiveSwatch={setActiveSwatch}
                 />
@@ -72,7 +65,7 @@ const ProductPage = (props) => {
 
               <div className={styles.sizeContainer}>
                 <SizeList
-                  sizeList={sampleProduct.sizeOptions}
+                  sizeList={jumpersProduct.sizeOptions}
                   activeSize={activeSize}
                   setActiveSize={setActiveSize}
                 />
@@ -110,8 +103,8 @@ const ProductPage = (props) => {
               </div>
 
               <div className={styles.description}>
-                <p>{sampleProduct.description}</p>
-                <span>Product code: {sampleProduct.productCode}</span>
+                <p>{jumpersProduct.description}</p>
+                <span>Product code: {jumpersProduct.productCode}</span>
               </div>
 
               <div className={styles.informationContainer}>
@@ -121,7 +114,7 @@ const ProductPage = (props) => {
                   title={'composition & care'}
                 >
                   <p className={styles.information}>
-                    {sampleProduct.description}
+                    {jumpersProduct.description}
                   </p>
                 </Accordion>
                 <Accordion
@@ -130,12 +123,12 @@ const ProductPage = (props) => {
                   title={'delivery & returns'}
                 >
                   <p className={styles.information}>
-                    {sampleProduct.description}
+                    {jumpersProduct.description}
                   </p>
                 </Accordion>
                 <Accordion type={'plus'} customStyle={styles} title={'help'}>
                   <p className={styles.information}>
-                    {sampleProduct.description}
+                    {jumpersProduct.description}
                   </p>
                 </Accordion>
               </div>
@@ -171,4 +164,4 @@ const ProductPage = (props) => {
   );
 };
 
-export default ProductPage;
+export default JumpersPage;

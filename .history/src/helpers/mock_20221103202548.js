@@ -10,7 +10,8 @@ function generateMockProductData(count, tag) {
 }
 
 function filterItemById(id){
-  const products = productJson; 
+  const products = productJson;
+  
   const filtered = products.filter((item) => item.productCode.includes(id));
 }
 

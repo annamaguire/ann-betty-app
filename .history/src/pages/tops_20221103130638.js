@@ -13,13 +13,10 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
 import Config from '../config.json';
-import productJson from '../helpers/product.json';
 
-const ShopPage = (props) => {
+const TopsPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const filtered = productJson.filter((item) => item.tags.includes('jumpers'));
-  const data = generateMockProductData(filtered.length, 'all');
-  
+  const data = generateMockProductData(6, 'tops');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -39,7 +36,8 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { label: 'All Items' },
+                { link: '/jumpers', label: 'Jumpers' },
+               
               ]}
             />
           </div>
@@ -53,7 +51,7 @@ const ShopPage = (props) => {
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>{filtered.length} Items</span>
+            <span className={styles.itemCount}>476 items</span>
             <div className={styles.controllerContainer}>
               <div
                 className={styles.iconContainer}
@@ -76,10 +74,10 @@ const ShopPage = (props) => {
             visible={showFilter}
             filters={Config.filters}
           />
-          {/* <div className={styles.chipsContainer}>
+          <div className={styles.chipsContainer}>
             <Chip name={'XS'} />
             <Chip name={'S'} />
-          </div> */}
+          </div>
           <div className={styles.productContainer}>
             <span className={styles.mobileItemCount}>476 items</span>
             <ProductCardGrid data={data}></ProductCardGrid>
@@ -98,4 +96,4 @@ const ShopPage = (props) => {
   );
 };
 
-export default ShopPage;
+export default TopsPage;

@@ -17,7 +17,7 @@ import { filterItemById, generateMockProductData } from '../../helpers/mock';
 import Icon from '../../components/Icons/Icon';
 import ProductCardGrid from '../../components/ProductCardGrid';
 import { navigate } from 'gatsby';
-
+import productJson from '../helpers/product.json';
 
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
@@ -27,7 +27,7 @@ const ProductPage = (props) => {
 
   const sampleProduct = generateMockProductData(1, 'sample')[0];
 
- // const productData = filterItemById(1,)[0];
+  const productData = filterItemById(1,)[0];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   const [activeSwatch, setActiveSwatch] = useState(
@@ -35,10 +35,8 @@ const ProductPage = (props) => {
   );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
   const suggestions = generateMockProductData(4, 'woman');
-  console.log(props);
 
   return (
-    
     <Layout>
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>

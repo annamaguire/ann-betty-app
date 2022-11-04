@@ -27,7 +27,7 @@ const ProductPage = (props) => {
 
   const sampleProduct = generateMockProductData(1, 'sample')[0];
 
- // const productData = filterItemById(1,)[0];
+  const productData = filterItemById(1,)[0];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   const [activeSwatch, setActiveSwatch] = useState(
